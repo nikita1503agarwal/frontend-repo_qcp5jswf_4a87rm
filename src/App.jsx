@@ -2,6 +2,11 @@ import React from 'react'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Categories from './components/Categories'
+import Showcase from './components/Showcase'
+import HowItWorks from './components/HowItWorks'
+import VideoPreviews from './components/VideoPreviews'
+import Reviews from './components/Reviews'
+import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 
 function App() {
@@ -13,10 +18,22 @@ function App() {
       {/* Features */}
       <Features />
 
+      {/* Showcase with images */}
+      <Showcase />
+
+      {/* How it works (animated) */}
+      <HowItWorks />
+
+      {/* Video previews */}
+      <VideoPreviews />
+
       {/* Categories */}
       <Categories />
 
-      {/* Simple CTA */}
+      {/* Gallery */}
+      <Gallery />
+
+      {/* CTA */}
       <section id="get-started" className="relative w-full py-20 bg-slate-900">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white">Ready to book your next service?</h2>
@@ -34,6 +51,9 @@ function App() {
           <div className="mt-4 text-xs text-white/60">No sign-up required</div>
         </div>
       </section>
+
+      {/* Reviews */}
+      <Reviews />
 
       {/* Footer */}
       <Footer />
